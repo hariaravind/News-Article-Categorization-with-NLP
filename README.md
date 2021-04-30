@@ -5,5 +5,5 @@ In this project, I've used Python to process the textual content of a large coll
 
 Term Frequency – Inverse Document Frequency (TF-IDF) scores for each news article was used for the categorization.
 
-<u>Methodology</u>
+<u>Methodology</u><br>
 There are multiple approaches to categorize the text. I've used the average TF-IDF feature vector for each article category. These average TF-IDF feature vectors are used as a basis for calculating the distance between each possible category and each article for which the category is unknown.
